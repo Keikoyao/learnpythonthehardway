@@ -19,8 +19,8 @@ person = input('Enter your name:')
 greeting = 'hello,{}!'.format(person)
 print(greeting)
 
-x=int(input("Enter an integer:"))
-y=int(input("Enter another integer:"))
+x = int(input("Enter an integer:"))
+y = int(input("Enter another integer:"))
 sum = x+y
 sentence='The sum of {} and {} is {}.'.format(x,y,sum)
 print (sentence)
