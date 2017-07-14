@@ -7,7 +7,7 @@ txt = open(filename)
 
 txt.close()
 
-print("Here is your file %r:" % filename)
+print ("Here is your file %r:" % filename)
 print (txt.read())
 
 print ("Type the filename again:")
