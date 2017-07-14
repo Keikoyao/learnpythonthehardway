@@ -13,4 +13,4 @@ name,age = argv
 
 name = input("what's your name?")
 age = input ("How old are you?")
-print ("%s, your age is %s" %(name,int(age)))
+print ("%s, your age is %s" % (name,int(age)))
