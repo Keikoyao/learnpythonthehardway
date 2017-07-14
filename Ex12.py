@@ -1,5 +1,5 @@
 # -- coding: utf-8 --
-#eval() interactive shell,interprets a string as code
+# eval() interactive shell,interprets a string as code
 
 y = input("Name?")
 print(y)
