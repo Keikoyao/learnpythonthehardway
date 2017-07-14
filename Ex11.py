@@ -8,7 +8,7 @@ height = input()
 print("how much do you weigh?"),
 weight = input()
 
-print("So, you're %r old,%r tall and %r heavy."%(age,height,weight))
+print("So, you're %r old,%r tall and %r heavy."% (age,height,weight))
 
 #Print with Keyword Parameter sep
 person = input('Enter your name:')
