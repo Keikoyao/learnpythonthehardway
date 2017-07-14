@@ -19,9 +19,7 @@ target.truncate()
 
 print("Now I'm going to ask you for three lines.")
 
-line1 = input("Line 1:")
-line2 = input("Line 2:")
-line3 = input("Line 3:")
+target.write("%s\n%s\n%s\n"%(line1,line2,line3))
 
 print("I am going to write these to the file.")
 
