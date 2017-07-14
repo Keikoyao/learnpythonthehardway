@@ -19,16 +19,21 @@ target.truncate()
 
 print("Now I'm going to ask you for three lines.")
 
-target.write("%s\n%s\n%s\n"%(line1,line2,line3))
+line1 = input("Line 1:")
+line2 = input("Line 2:")
+line3 = input("Line 3:")
 
 print("I am going to write these to the file.")
 
+#combine multiple lines into one line using 
+target.write("%s\n%s\n%s\n"%(line1,line2,line3))
+'''
 target.write(line1)
 target.write("\n")
 target.write(line2)
 target.write("\n")
 target.write(line3)
 target.write("\n")
-
+'''
 print("And finally, we close it")
 target.close()
