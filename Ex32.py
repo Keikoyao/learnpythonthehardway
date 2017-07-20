@@ -30,3 +30,12 @@ for i in elements:
     print("Element was: %d" % i)
     
 # other function for lists
+L.append(var)   #追加元素
+L.insert(index,var)
+L.pop(var)      #返回数组下标为index的元素，并从列表中删除之
+L.remove(var)   #删除第一次出现的该元素
+L.count(var)    #该元素在列表中出现的个数
+L.index(var)    #该元素的位置,无则抛异常 
+L.extend(list)  #追加list，即合并list到L上
+L.sort()        #排序
+L.reverse()     #倒序
