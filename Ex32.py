@@ -1,4 +1,4 @@
-#list []
+ #list []
 hairs = ['brown','blond','red']
 the_count = [1,2,3,4,5]
 fruits = ['apples','oranges','pears','apricots']
@@ -32,7 +32,7 @@ for i in elements:
 # other function for lists
 L.append(var)   #追加元素
 L.insert(index,var)
-L.pop(var)      #返回数组下标为index的元素，并从列表中删除之
+L.pop(var)      #返回数组下标为index的元素，并从列表中删除之 pop()从最后一个开始删除
 L.remove(var)   #删除第一次出现的该元素
 L.count(var)    #该元素在列表中出现的个数
 L.index(var)    #该元素的位置,无则抛异常 
