@@ -12,7 +12,7 @@ def death():
              "Nice job, you died...jackass.",
              "Such a luser.",
              "I have a small puppy that's better at this."]
-g             
+             
     print(quips[randint(0,len(quips)-1)])
     exit(1)
 
@@ -22,7 +22,7 @@ def central_corridor():
     print("your entire crew. You are the last surviving member and your last")
     print("mission is to get the neutron destruct bomb from the Weapons Armory,")
     print("put it in the bridge, and blow the ship up after getting into an ")
-d    print("escape pod.")
+    print("escape pod.")
     print("\n")
     print("You're running down the central corridor to the weapons Armory when")
     print("a Gothon jumps out, red scaly skin, dark grimy teeth, and evil clown costume")
@@ -32,7 +32,7 @@ d    print("escape pod.")
     action = input(">>>")
 
     if action == "shoot!":
-3        print("Quick on the draw you yank out your blaster and fire it up at the Gothon.")
+        print("Quick on the draw you yank out your blaster and fire it up at the Gothon.")
         print("His clown costume is flowing and moving around his body, which throws")
         print("off your aim. Your laser hits his costume but misses him entirely. This")
         print("completely tuins his brand new costume his mother bought him, which")
