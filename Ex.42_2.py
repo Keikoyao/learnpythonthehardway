@@ -23,6 +23,8 @@ print(mystuff.tangerine)
 
 
 #使用模块和访问字典相似
+
+
 mystuff['apple'] # get apple from dict
 mystuff.apple() # get apple from the module
 mystuff.tangerine # same thing, it's just a variable
@@ -62,8 +64,11 @@ thing = MyStuff()
 thing.apple()
 print(thing.tangerine)
 
+
 class Song(object):
 
+    #如果不用self，代码中lyrics = lyrics是不明确的，代码不知道指的是实例中的lyrics属性，还是一个叫
+    #lyrics的全局变量，使用self.lyrics = lyrics就很清楚
     def __init__ (self, lyrics):
         self.lyrics = lyrics
 
